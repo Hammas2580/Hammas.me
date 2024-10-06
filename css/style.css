@@ -334,6 +334,7 @@ button {
 .about_wrapper {
   margin-top: 50px !important;
 }
+
 .about_section {
   margin-top: 120px !important;
 }
@@ -428,9 +429,11 @@ button {
   font-size: 18px !important;
   font-family: poppins !important;
 }
+
 .experience_div {
   margin-top: 20px !important;
 }
+
 .my_exper {
   font-family: poppins !important;
   color: var(--text-white) !important;
@@ -453,3 +456,31 @@ button {
   display: block !important;
   color: var(--text-gray) !important;
 }
+
+/*   servicrs section */
+.services_wrapper {
+  margin-top: 100px !important;
+}
+.services_wrapper .services_section {
+  font-family: poppins !important;
+  font-size: 50px !important;
+  font-weight: 500 !important;
+  letter-spacing: 2px !important;
+}
+
+.services_wrapper .card {
+  background-color: var(--bg-dark-blue) !important;
+  cursor: pointer !important;
+  transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1) !important;
+  box-shadow: 0.65s cubic-bezier(0.05, 0.2, 0.1, 1) !important;
+}
+
+.services_wrapper .card:hover {
+  box-shadow: 0px 2px 70px 0 rgb(253 71 102 / 5%) !important;
+  transform: translateY(-10px) !important;
+  /* background-color: var() !important; */
+}
+.servives_heading {
+  font-family: poppins !important;
+}
+
