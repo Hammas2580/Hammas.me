@@ -15,3 +15,16 @@ navLinks.forEach(function (a) {
     navCollapse.classList.remove("show");
   });
 });
+
+
+document.querySelectorAll('.portfolio-card').forEach((card) => {
+  card.addEventListener('click', () => {
+    const overlay = card.querySelector('.overlay');
+    if (overlay.style.opacity === '1') {
+      overlay.style.opacity = '0'; // Hide buttons
+    } else {
+      overlay.style.opacity = '1'; // Show buttons
+    }
+  });
+});
+

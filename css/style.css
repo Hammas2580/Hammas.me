@@ -461,9 +461,10 @@ button {
 .services_wrapper {
   margin-top: 100px !important;
 }
+
 .services_wrapper .services_section {
   font-family: poppins !important;
-  font-size: 50px !important;
+  font-size: 4  0px !important;
   font-weight: 500 !important;
   letter-spacing: 2px !important;
 }
@@ -480,7 +481,54 @@ button {
   transform: translateY(-10px) !important;
   background-color: black !important;
 }
+
 .servives_heading {
   font-family: poppins !important;
 }
+
+
+
+/*   potfolio section */
+.potfolio_card {
+  border: 1px solid var(--bg-white) !important;
+  padding: 20px 20px !important;
+  box-shadow: 10px 10px 10px steelblue !important;
+
+}
+
+.potfolio_wrapper .card {
+  height: 100% !important;
+  min-height: 350px !important;
+  overflow: hidden !important;
+  border: 1px solid var(--bg-white) !important;
+  cursor: pointer !important;
+  box-shadow: 0 0 16px 4px var(--bg-dark-blue) !important;
+}
+
+.potfolio_wrapper .card span {
+  transition: background-position 3s ease-in-out 0s !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-position: top center !important;
+  background-size: cover !important;
+}
+
+.potfolio_wrapper .card:hover span {
+  background-position: bottom center !important;
+}
+
+.project_name {
+  font-family: poppins !important;
+  font-size: 30px !important;
+}
+.project_text {
+  font-family: poppins !important;
+  font-size: 40px !important;
+  letter-spacing: 2px !important;
+}
+.project_button {
+  margin-left: 20px !important;
+  margin-top: -20px !important;
+}
+
 
