@@ -532,3 +532,11 @@ button {
 }
 
 
+.slideInRight {
+  animation-name: slideInRight  !important;
+}
+.animated  {
+  animation-duration: 01s !important;
+  animation-fill-mode: both !important;
+  animation-timing-function: ease-in-out !important;
+}

@@ -17,8 +17,12 @@
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- ====== animation link ===== -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 
 </head>
 
@@ -66,17 +70,18 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-12 col-lg-6 text-center text-md-start  personal_text">
-          <h1 class="name_content">
+          <h1 class="name_content animated slideInRight ">
             Hi , I'm <span>Hammas</span>
             <img src="./assets/images/images/hands_pic.png" class="hand_img" alt="">
           </h1>
-          <h3 class="mt-3 banner_content">"I am a passionate frontend developer currently enhancing my skills in the
+          <h3 class="mt-3 banner_content animated slideInRight">"I am a passionate frontend developer currently
+            enhancing my skills in the
             Saylani Mass IT
             Training
             program, specializing in user-friendly, responsive websites using HTML, CSS, Bootstrap, GitHub, and basic
             JavaScript. Explore the projects showcased below, each reflecting my dedication to creative web
             solutions!"</h3>
-          <div class="socail_media_icon">
+          <div class="socail_media_icon animated slideInRight">
             <a href="mailto:hammas2580@gmail.com" target="_blank"><span><i class="fa-solid fa-envelope"
                   class="icons_media"></i></span></a>
             <a href="https://github.com/Hammas2580" target="_blank"><span><i class="fa-brands fa-github"
@@ -86,11 +91,11 @@
             <a href="https://www.facebook.com/profile.php?id=61556286322023" target="_blank"><span><i
                   class="fa-brands fa-square-facebook" class="icons_media"></i></span></a>
           </div>
-          <div class="cv_button">
+          <div class="cv_button animated slideInRight">
             <a class="main-btn" href="">Downlaod CV</a>
           </div>
         </div>
-        <div class="col-12 col-md-12 col-lg-6">
+        <div class="col-12 col-md-12 col-lg-6 ">
           <div class="porfolio_images">
             <img
               src="./assets/images/images/[removal.ai]_3c561a62-beca-4a7f-821b-28c4db94520c-whatsapp-image-2024-08-29-at-13-24-30_ac37e7ca.png"
@@ -108,8 +113,9 @@
     <div class="container">
       <div class="row justify-content-between align-items-centerd-flex flex-wrap mb-3">
         <div class="col-lg-6 text-lg-start mt">
-          <div class="my-3 mb-lg-0 about_section ">
-            <h2 class="about_heading">About Me</h2>
+          <div class="my-3 mb-lg-0 about_section wow fadeIn " data-wow-delay="0.1s"
+          style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;" >
+            <h2 class="about_heading " >About Me</h2>
             <p class="about_me">
               My name is Hammas, a dedicated fresher web developer with a passion for learning and problem-solving. I
               have experience in HTML, CSS, Bootstrap, GitHub, and a growing interest in JavaScript for building
@@ -456,7 +462,7 @@
           </div>
         </div>
       </div>
-  
+
     </div>
     </div>
   </section>
@@ -465,7 +471,19 @@
   <script src="./assets/bootstrap/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
   <!-- --main java script files -->
   <script src="./java script/main.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- <sscript src="https://unpkg.com/aos@2.3.1/dist/aos.js"></sscript>
+  <script rc="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+
+
 </body>
 
 </html>
