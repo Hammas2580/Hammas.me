@@ -328,7 +328,12 @@ button {
   margin-top: 25px !important;
 }
 
+.porfolio_images .potfolio_img {
+  width: 100% !important;
+  height: 550px !important;
+  text-align: center !important;
 
+}
 /* ====== about section ===== */
 
 .about_wrapper {
@@ -543,6 +548,12 @@ button {
 }
 
 /* --contact section-- */
+.contact_wrapper {
+  margin-top: 30px !important;
+}
+.form {
+  margin-top: 20px !important;
+}
 .contact_wrapper .form-control,
 .contact_wrapper textarea {
   background-color: transparent !important;
@@ -551,6 +562,9 @@ button {
   font-size: 15px !important;
   font-weight: 400 !important;
   padding: 10px 20px !important;
+}
+.placeholder {
+  color: var(--primary-color) !important;
 }
 .contact_wrapper .form-control:hover,
 .contact_wrapper textarea:hover,
@@ -566,4 +580,24 @@ button {
 .contact_wrapper .call_details a {
   font-weight: 700 !important;
   color: var(--text-gray) !important;
+}
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-white) !important; 
+  opacity: 1 !important; 
+  font-family: poppins !important;
+}
+.form_heading {
+  font-family: poppins !important;
+}
+.for_email {
+  /* background-color: red !important; */
+}
+.for_email .email_box {
+  font-size: 10px !important;
+}
+.for_email .email_text {
+  font-size: 10px !important;
+  line-height: 100px !important;
+  color: var(--text-white) !important;
 }
