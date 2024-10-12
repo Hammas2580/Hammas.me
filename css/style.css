@@ -334,6 +334,7 @@ button {
   text-align: center !important;
 
 }
+
 /* ====== about section ===== */
 
 .about_wrapper {
@@ -469,7 +470,7 @@ button {
 
 .services_wrapper .services_section {
   font-family: poppins !important;
-  font-size: 4  0px !important;
+  font-size: 4 0px !important;
   font-weight: 500 !important;
   letter-spacing: 2px !important;
 }
@@ -508,6 +509,11 @@ button {
   border: 1px solid var(--bg-white) !important;
   cursor: pointer !important;
   box-shadow: 0 0 16px 4px var(--bg-dark-blue) !important;
+  z-index: 1 !important;
+}
+
+.github_view {
+  z-index: 2 !important;
 }
 
 .potfolio_wrapper .card span {
@@ -526,21 +532,73 @@ button {
   font-family: poppins !important;
   font-size: 30px !important;
 }
+
 .project_text {
   font-family: poppins !important;
   font-size: 40px !important;
   letter-spacing: 2px !important;
 }
+
 .project_button {
   margin-left: 20px !important;
   margin-top: -20px !important;
 }
+
+/* ================== JAVA CRIPT ASSIGNMENT ================ */
+.java_heading {
+  text-align: center !important;
+}
+
+.java_heading h2 {
+  font-family: poppins !important;
+  color: var(--primary-color) !important;
+  font-size: 40px !important;
+}
+
+.card-body {
+  background-color: var(--bg-dark-blue) !important;
+  border: 2px solid var(--text-white) !important;
+}
+
+.card-body .card-title {
+  text-align: center !important;
+  font-family: poppins !important;
+  font-size: 22px !important;
+  color: var(--primary-color) !important;
+}
+
+.card-body .card-text {
+  color: var(--text-white) !important;
+  font-family: poppins !important;
+  font-size: 18px !important;
+  text-align: left !important;
+}
+
+.github_view .btn_github,
+.github_view .btn_lve {
+  padding: 10px 20px !important;
+  border: 1px solid var(--text-gray) !important;
+  color: var(--text-white) !important;
+  font-family: poppins !important;
+  font-size: 18px !important;
+}
+.github_view .btn_github:focus {
+  background-color: var(--primary-color) !important;;
+}
+.github_view .btn_lve:focus {
+  background-color: var(--primary-color) !important;;
+}
+.card .flavour_images , .card .calcutor_img {
+  height: 200px !important;
+}
+
 /* ====== animation css ============== */
 
 .slideInRight {
-  animation-name: slideInRight  !important;
+  animation-name: slideInRight !important;
 }
-.animated  {
+
+.animated {
   animation-duration: 1s !important;
   animation-fill-mode: both !important;
   animation-timing-function: linear !important;
@@ -551,9 +609,11 @@ button {
 .contact_form {
   margin-top: 30px !important;
 }
+
 .form {
   margin-top: 20px !important;
 }
+
 .contact_form .form-control,
 .contact_form textarea {
   background-color: transparent !important;
@@ -563,9 +623,11 @@ button {
   font-weight: 400 !important;
   padding: 10px 20px !important;
 }
+
 .placeholder {
   color: var(--primary-color) !important;
 }
+
 .contact_form .form-control:hover,
 .contact_form textarea:hover,
 .contact_form .form-control:focus,
@@ -573,6 +635,7 @@ button {
   border-color: var(--primary-color) !important;
   color: var(--text-white) !important;
 }
+
 .contact_form .call_details {
   color: var(--text-gray) !important;
 }
@@ -581,22 +644,31 @@ button {
   font-weight: 700 !important;
   color: var(--text-gray) !important;
 }
+
 input::placeholder,
 textarea::placeholder {
-  color: var(--text-white) !important; 
-  opacity: 1 !important; 
+  color: var(--text-white) !important;
+  opacity: 1 !important;
   font-family: poppins !important;
 }
+
 .social_media_icon {
   margin-top: 120px !important;
   margin-left: 20px !important;
 }
+
 .social_media_icon .icon {
   margin-top: 20px !important;
 }
-.social_media_icon .social_pic{
+
+.social_media_icon .social_pic {
   font-size: 30px !important;
 }
+
+.social_media_icon .social_pic:hover {
+  color: var(--primary-color) !important;
+}
+
 .social_media_icon .conatct_name {
   margin-left: 20px !important;
   /* line-height: 10px !important; */
@@ -605,17 +677,37 @@ textarea::placeholder {
   font-size: 20px !important;
   font-family: poppins !important;
 }
+
 .form_heading {
   font-family: poppins !important;
 }
-.for_email {
-  /* background-color: red !important; */
-}
+
+
+
 .for_email .email_box {
   font-size: 10px !important;
 }
+
 .for_email .email_text {
   font-size: 10px !important;
   line-height: 100px !important;
   color: var(--text-white) !important;
+}
+
+/* ========== Footer section ========== */
+footer {
+  margin-top: 20px !important;
+  background-color: var(--primary-color) !important;
+  padding: 20px 0 !important;
+}
+
+.footer_div {
+  text-align: center !important;
+}
+
+.footer_div span {
+  font-family: poppins !important;
+  font-size: 20px !important;
+  color: var(--text-white) !important;
+
 }
