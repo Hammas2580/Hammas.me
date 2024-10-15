@@ -291,7 +291,7 @@ button {
 }
 
 .porfolio_images img {
-  animation: upDown 2.5s infinite;
+  animation: upDown 7s infinite;
 }
 @keyframes upDown {
   0%, 100% {
