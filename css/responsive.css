@@ -226,7 +226,15 @@
   .project_text {
     font-size: 30px !important;
   }
-
+/* =================== JAVA SCRIPT ================= */
+.github_view .btn_github {
+  margin-bottom: 15px !important;
+  width: 100% !important;
+}
+.github_view .btn_lve {
+  margin-bottom: 15px !important;
+  width: 100% !important;
+}
   /* ===== contact form ===== */
   .contact_form {
     margin-top: -50px !important;
